@@ -1,6 +1,15 @@
 #!/bin/bash
 # coding: utf-8
 
+# <bitbar.title>Kinnosuke check in/out</bitbar.title>
+# <bitbar.version>v1.0.0</bitbar.version>
+# <bitbar.author>Uchio Kondo</bitbar.author>
+# <bitbar.author.github>udzura</bitbar.author.github>
+# <bitbar.desc>Check in/out your office via kinnosuke</bitbar.desc>
+# <bitbar.image>TBD</bitbar.image>
+# <bitbar.dependencies>bash</bitbar.dependencies>
+# <bitbar.abouturl>https://github.com/udzura/bitbar-kinnosuke-cli</bitbar.abouturl>
+
 export PATH=$PATH:/usr/local/bin
 if ! which kinnosuke-clocking-cli >/dev/null; then
     echo "💀Error | color=red"
