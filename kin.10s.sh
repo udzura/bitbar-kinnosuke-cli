@@ -59,6 +59,13 @@ case "$1" in
 esac
 
 res=$(kinnosuke-clocking-cli -n -y)
+if [ "$?" -ne "0" ]; then
+    echo "⚡️Error | color=red"
+    echo '---'
+    echo "kinnosuke command failed(may be offline or prohibited IP) | color=red"
+    exit 1
+fi
+
 cin=$(echo $res | awk -F, '{print $1}' | awk '{print $2}')
 cout=$(echo $res | awk -F, '{print $2}' | awk '{print $2}')
 color=black
