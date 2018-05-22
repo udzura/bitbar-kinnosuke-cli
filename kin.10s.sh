@@ -6,7 +6,7 @@
 # <bitbar.author>Uchio Kondo</bitbar.author>
 # <bitbar.author.github>udzura</bitbar.author.github>
 # <bitbar.desc>Check in/out your office via kinnosuke</bitbar.desc>
-# <bitbar.image>TBD</bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/udzura/bitbar-kinnosuke-cli/master/screemshot.png</bitbar.image>
 # <bitbar.dependencies>bash</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/udzura/bitbar-kinnosuke-cli</bitbar.abouturl>
 

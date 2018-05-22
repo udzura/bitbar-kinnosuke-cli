@@ -1,6 +1,8 @@
 bitbar-kinnosuke-cli
 ====================
 
+![This way](https://raw.githubusercontent.com/udzura/bitbar-kinnosuke-cli/master/screemshot.png)
+
 ## Pre-requirement
 
 [`kinnosuke-clocking-cli`](https://github.com/yano3/kinnosuke-clocking-cli/) with PR [#15](https://github.com/yano3/kinnosuke-clocking-cli/pull/15) in your PATH.
