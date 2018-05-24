@@ -5,7 +5,7 @@ bitbar-kinnosuke-cli
 
 ## Pre-requirement
 
-[`kinnosuke-clocking-cli`](https://github.com/yano3/kinnosuke-clocking-cli/) with PR [#15](https://github.com/yano3/kinnosuke-clocking-cli/pull/15) in your PATH.
+[`kinnosuke-clocking-cli`](https://github.com/yano3/kinnosuke-clocking-cli/) version eqiual to or after `0.2.0`.
 
 ## Install
 
