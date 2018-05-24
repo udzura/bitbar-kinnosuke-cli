@@ -58,7 +58,7 @@ case "$1" in
         ;;
 esac
 
-res=$(kinnosuke-clocking-cli -n -y)
+res=$(kinnosuke-clocking-cli -s -y)
 if [ "$?" -ne "0" ]; then
     echo "⚡️Error | color=red"
     echo '---'
@@ -66,8 +66,8 @@ if [ "$?" -ne "0" ]; then
     exit 1
 fi
 
-cin=$(echo $res | awk -F, '{print $1}' | awk '{print $2}')
-cout=$(echo $res | awk -F, '{print $2}' | awk '{print $2}')
+cin=$(echo $res | awk '{print $1}')
+cout=$(echo $res | awk '{print $2}')
 color=black
 
 if [ "$cin" = "<notyet>" ]; then
