@@ -15,7 +15,7 @@ if ! which kinnosuke-clocking-cli >/dev/null; then
     echo "💀Error | color=red"
     echo '---'
     echo "Please install kinnosuke-cli | color=red"
-    echo "➡️ Vist GitHub | color=red href=https://github.com/yano3/kinnosuke-clocking-cli/"
+    echo "➡️ Visit GitHub | color=red href=https://github.com/yano3/kinnosuke-clocking-cli/"
     exit 1
 fi
 
