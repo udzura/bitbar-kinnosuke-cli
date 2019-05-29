@@ -10,7 +10,7 @@ Please put kinnosuke-clocking-cli to `/usr/local/bin`.
 
 ## Install
 
-Put `kin.10s.sh` to your bitbar plugin directory.
+Put `kin.300s.sh` to your bitbar plugin directory.
 
 ## Config
 
